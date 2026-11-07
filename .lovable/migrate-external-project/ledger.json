@@ -1,0 +1,89 @@
+{
+  "source": "code-archive: grind-n-crumb-main_1.zip (Grind & Crumb CEO Command Centre, already a TanStack Start app)",
+  "capabilities": [
+    {
+      "capability": "code",
+      "source": "src/ (10 pages, layout, advisor, dash primitives, models, upload, timeline)",
+      "outcome": "Copied into this project; template TanStack versions kept",
+      "status": "verified",
+      "next_action": null
+    },
+    {
+      "capability": "records",
+      "source": "src/data/dashboard.json, daily.json, investment-options.ts (bundled)",
+      "outcome": "Bundled with the code; no database in source",
+      "status": "verified",
+      "next_action": null
+    },
+    {
+      "capability": "schema",
+      "source": "none (flat files, no database)",
+      "outcome": "No database needed",
+      "status": "not_applicable",
+      "next_action": null
+    },
+    {
+      "capability": "auth_identities",
+      "source": "none",
+      "outcome": "Source had no login",
+      "status": "not_applicable",
+      "next_action": null
+    },
+    {
+      "capability": "authorization",
+      "source": "none",
+      "outcome": "Public dashboard, no roles",
+      "status": "not_applicable",
+      "next_action": null
+    },
+    {
+      "capability": "uploaded_files",
+      "source": "in-browser CSV re-import (session only)",
+      "outcome": "Kept as in-browser recompute",
+      "status": "verified",
+      "next_action": null
+    },
+    {
+      "capability": "ai_chat",
+      "source": "/api/chat server route \u2192 Lovable AI Gateway, model google/gemini-4-argon",
+      "outcome": "Kept as-is; LOVABLE_API_KEY already provisioned here",
+      "status": "verified",
+      "next_action": null
+    },
+    {
+      "capability": "public_endpoints",
+      "source": "POST /api/chat (used only by the app itself)",
+      "outcome": "Kept",
+      "status": "verified",
+      "next_action": null
+    },
+    {
+      "capability": "schedules_webhooks",
+      "source": "none",
+      "outcome": "None present",
+      "status": "not_applicable",
+      "next_action": null
+    },
+    {
+      "capability": "secrets",
+      "source": "LOVABLE_API_KEY only (managed)",
+      "outcome": "Present in this project",
+      "status": "verified",
+      "next_action": null
+    },
+    {
+      "capability": "cutover",
+      "source": "previous Lovable project",
+      "outcome": "New project; publish when ready",
+      "status": "pending",
+      "next_action": "User publishes"
+    },
+    {
+      "capability": "verification",
+      "source": "-",
+      "outcome": "Build OK, 25 tests pass, all 10 pages load with no errors, advisor answered live",
+      "status": "verified",
+      "next_action": null
+    }
+  ]
+}
